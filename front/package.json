@@ -1,0 +1,26 @@
+{
+  "name": "fivetournament",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "5.3.3",
+    "fetch": "^1.1.0",
+    "mockjs": "^1.1.0",
+    "vite-plugin-mock": "^3.0.2",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.1.2",
+    "sass": "1.64.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "2.0.29"
+  }
+}
